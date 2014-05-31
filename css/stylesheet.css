@@ -1,0 +1,124 @@
+nav {
+	margin-left: 50px;
+	background: black;
+	box-shadow: 0px 0px 15px grey;
+	padding: 3px 10px;
+	border-radius: 15px;
+	list-style: none;
+}
+nav:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+nav li {
+	float: left;
+	list-style-type: none;
+	margin-left: 75px;
+}
+nav li a {
+	display: block;
+	font-weight: bold;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+nav li:hover{
+	background:silver;
+	border-radius: 10px;
+}
+nav li:hover a{
+	color: black;
+}
+body {
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+	width: 90%;
+}
+h1 {
+	text-align: center;
+	color: black;
+}
+h3 {
+	text-align: center;
+}
+img {
+	height: 250px;
+	width: 250px;
+	margin: 50px;
+	border-radius: 15px;
+	z-index: 0;
+}
+.comment {
+	background-color: rgba(255, 255, 255, .3);
+	color: black;
+	display: none;
+	position: absolute;
+	margin: 50px;
+	padding: 40px;
+	line-height: 1.1em;
+	font-size: 15pt;
+	text-align: center;
+	float: bottom;
+	font-family: 'Averia Sans Libre', cursive;
+	font-style: bold;
+	height: 250px;
+	width: 250px;
+	margin: 50px;
+	border-radius: 15px;
+}
+a:hover .comment {
+	display: inline;
+	width: 175px;
+	height: 175px;
+	padding: 40px;
+	background-color:rgba(255, 255, 255, .3);
+	clear: left;
+	text-align: bottom;
+	z-index: 1;
+}
+.bathroomfloor {
+	transform:          rotate(90deg);
+	-ms-transform:      rotate(90deg);
+	-moz-transform:     rotate(90deg);
+	-webkit-transform:  rotate(90deg);
+	-o-transform:       rotate(90deg);
+}
+/*.image {
+	opacity: .5;
+}*/
+.comment .image{
+	background-color: rgba(255, 255, 255, .3);
+	color: black;
+	display: none;
+	position: absolute;
+	margin: 50px;
+	padding: 40px;
+	line-height: 1.1em;
+	font-size: 15pt;
+	text-align: center;
+	float: bottom;
+	font-family: 'Averia Sans Libre', cursive;
+	font-style: bold;
+}
+a:hover .comment .image{
+	display: inline;
+	width: 175px;
+	height: 175px;
+	padding: 40px;
+	background-color:rgba(255, 255, 255, .3);
+	clear: left;
+	text-align: bottom;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#logo {
+	height: 500px;
+	width: 500px;
+	margin-left: 300px;
+}
